@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Shorts Uploader</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0 auto; padding: 3rem 1.25rem; max-width: 42rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #15182f; color: #e8e6f0;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  p, li { color: #cfcbdd; }
+  a { color: #9db4ff; }
+  code { background: #22263f; padding: .1rem .35rem; border-radius: 3px; }
+  .sub { color: #8f8aa6; margin-top: 0; }
+  nav { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid #2c2f4a; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="sub">Shorts Uploader · last updated 15 November 2026</p>
+
+<h2>Summary</h2>
+<p>
+  Shorts Uploader is a personal command line tool with one user: its owner. It
+  collects no personal data, has no server, no database and no analytics, and
+  transmits nothing to anyone except Google's own YouTube API.
+</p>
+
+<h2>What the application accesses</h2>
+<p>
+  The application requests a single Google API scope,
+  <code>https://www.googleapis.com/auth/youtube.upload</code>, which allows it to
+  upload video files to the YouTube channel of the account that authorised it. It
+  does not read your videos, comments, subscribers, watch history, email address
+  or profile information.
+</p>
+
+<h2>What is stored, and where</h2>
+<p>
+  After you authorise the application, Google issues an OAuth token. That token is
+  written to a file on the owner's own computer and is used only to upload videos
+  to the owner's own channel. It is never transmitted anywhere other than Google,
+  and it is never shared, sold or published.
+</p>
+<p>
+  No other data is stored. The application keeps no record of who authorised it
+  beyond the token file itself.
+</p>
+
+<h2>Third parties</h2>
+<p>
+  There are none. Data goes only to Google, as required to perform the upload you
+  asked for. Google's handling of that data is governed by the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+</p>
+
+<h2>Revoking access</h2>
+<p>
+  You can revoke the application's access at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Revoking it immediately and permanently prevents further uploads. To remove the
+  stored token as well, delete the token file from the computer running the tool.
+</p>
+
+<h2>Limited use</h2>
+<p>
+  The application's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including its Limited Use requirements.
+</p>
+
+<h2>Children</h2>
+<p>
+  The application is not directed at children and is not usable by anyone other
+  than its owner.
+</p>
+
+<h2>Changes and contact</h2>
+<p>
+  If this policy changes, the revised version will be posted on this page with a
+  new date. Questions can be sent to the developer contact address registered for
+  the application in the Google Cloud console.
+</p>
+
+<nav><a href="./">Home</a> &nbsp;·&nbsp; <a href="./terms.html">Terms of service</a></nav>
+</body>
+</html>
